@@ -1,0 +1,19 @@
+{
+  "name": "sass",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "webpack-dev-server",
+    "bulid": "webpack --config ./webpack.config.js"
+  },
+  "devDependencies": {
+    "css-loader": "^3.2.0",
+    "style-loader": "^1.0.1",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
+  },
+  "dependencies": {
+    "webpack": "^4.41.2"
+  }
+}
